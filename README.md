@@ -1,6 +1,6 @@
 # 0x16. C - Simple Shell
- **By Julien Barbier**
- Project to be done in teams of 2 people (your team: Nick Wanjau, Solomon Ferede EzEZ
+ **By Spencer Cheng, featuring Julien Barbier**
+ Project to be done in teams of 2 people (your team: Godswill Kalu, Vatalis Ibeh
 
 # Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
@@ -104,6 +104,7 @@ Your shell will be compiled this way:
 - execute.c - execute the command.
 
 ## How to add Author file
+`Bash script for generating the list of authors in git repo`
 ```
 #!/bin/sh
 
