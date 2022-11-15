@@ -102,3 +102,13 @@ Your shell will be compiled this way:
 - string.c -it handles the strings(string length, write string,find string in directory,concatane strings....)
 - cmd.c - it finds the command the user entered.
 - execute.c - execute the command.
+
+## How to add Author file
+```
+#!/bin/sh
+
+git shortlog -se \
+  | perl -spe 's/^\s+\d+\s+//' \
+  | sed -e '/^CommitSyncScript.*$/d' \
+  > AUTHORS
+  ```
