@@ -87,9 +87,10 @@ wait4 (man 2 wait4)
 write (man 2 write)
 
 # Compilation
-Your shell will be compiled this way:
+## Your shell will be compiled this way:
 
-** gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh**
+`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
+
 
 # files
 - README.md - description about the project repo
@@ -113,7 +114,3 @@ git shortlog -se \
   | sed -e '/^CommitSyncScript.*$/d' \
   > AUTHORS
   ```
-
-## Your shell will be compiled this way:
-
-`gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh`
